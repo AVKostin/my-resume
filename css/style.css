@@ -15,7 +15,7 @@ body {
 /* main content section */
 
 .main-content-section {
-  padding: 100px 90px;
+  padding: 80px 90px;
 }
 
 .main-content-title {
@@ -76,10 +76,7 @@ body {
 }
 
 .my-projects-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: calc(24 / 14);
+  font-weight: bold;
   color: #595959;
 }
 .my-projects-text {
@@ -173,7 +170,8 @@ body {
 
 .contacts-section,
 .tech-skills-section,
-.soft-skills-section {
+.soft-skills-section,
+.lang-skills-section {
   margin: 50px 0 0 40px;
 }
 
