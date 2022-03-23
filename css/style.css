@@ -201,6 +201,15 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
+  text-decoration: none;
+  transition: transform 600ms;
+}
+
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+  color: #fb6d3a;
+  font-weight: bold;
+  transition: transform 600ms;
 }
 
 /* tech-skills-section */
