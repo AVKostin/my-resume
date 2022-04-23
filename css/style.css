@@ -54,7 +54,6 @@ body {
 .about-me-description {
   width: 680px;
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: calc(24 / 16);
   /* color: #595959; */
@@ -121,9 +120,8 @@ body {
 }
 .my-work-experience-period {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: calc(17 / 14);
+  font-size: 15px;
+  line-height: calc(18 / 15);
   /* color: #a8a8a8; */
   color: #000000;
   margin: 0 0 10px 0;
@@ -136,9 +134,8 @@ body {
 }
 .my-work-experience-duty {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: calc(24 / 14);
+  font-size: 15px;
+  line-height: calc(24 / 15);
   color: #595959;
   /* color:#000000; */
 }
@@ -213,7 +210,6 @@ body {
   color: #ffffff;
   /* opacity: 0.5; */
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   text-decoration: none;
@@ -256,7 +252,6 @@ body {
 
 .soft-skills-item-text {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #ffffff;
