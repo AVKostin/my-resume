@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/*.js",
   "homepage": "https://avkostin.github.io/my-resume/",
   "scripts": {
     "dev": "parcel src/*.html",
