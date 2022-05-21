@@ -12,8 +12,9 @@
   }
 
   .my-projects-link {
+    font-size: 17px;
     font-weight: bold;
-    color: #595959;
+    color: #1100ff;
     transition: color 300ms linear;
   }
   .my-projects-link:hover,
@@ -26,6 +27,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
+    text-align: justify;
     line-height: calc(24 / 15);
     /* color: #595959; */
     color: #000000;
@@ -39,4 +41,8 @@
     font-size: 14px;
     line-height: calc(24 / 14);
     color: #000000;
+  }
+
+  .project-title__name {
+    padding-bottom: 10px;;
   }
