@@ -16,7 +16,7 @@
     font-weight: bold;
     color: #1100ff;
     transition: color 300ms linear;
-  }
+   }
   .my-projects-link:hover,
   .my-projects-link:focus {
     color: #fb6d3a;
@@ -41,8 +41,14 @@
     font-size: 14px;
     line-height: calc(24 / 14);
     color: #000000;
+
   }
 
   .project-title__name {
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
+  }
+
+  .my-projects_technologies {
+    padding-top: 10px;
+    display: block;
   }
