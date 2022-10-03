@@ -1,0 +1,54 @@
+.my-projects-section {
+    margin-bottom: 50px;
+  }
+
+  .my-projects-list {
+    padding: 0 0 0 17px;
+  }
+
+  .my-projects-item {
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .my-projects-link {
+    font-size: 17px;
+    font-weight: bold;
+    color: #1100ff;
+    transition: color 300ms linear;
+   }
+  .my-projects-link:hover,
+  .my-projects-link:focus {
+    color: #fb6d3a;
+  }
+
+  .my-projects-text {
+    display:block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: justify;
+    line-height: calc(24 / 15);
+    /* color: #595959; */
+    color: #000000;
+    margin-left: 5px;
+    padding-bottom: 16px;
+  }
+
+  .my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: #000000;
+
+  }
+
+  .project-title__name {
+    padding-bottom: 10px;
+  }
+
+  .my-projects_technologies {
+    padding-top: 10px;
+    display: block;
+  }
