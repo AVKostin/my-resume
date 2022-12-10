@@ -6,7 +6,9 @@
   "homepage": "https://avkostin.github.io/my-resume/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /my-resume/"
+    "build": "parcel build src/*.html --public-url /my-resume/",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
