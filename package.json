@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "1.1.0",
   "description": "",
-  "main": "src/*.js",
+  "main": "src/*.html",
   "homepage": "https://avkostin.github.io/my-resume/",
   "scripts": {
     "dev": "parcel src/*.html",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/AVKostin/my-resume.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -21,8 +21,8 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-handlebars-precompile": "^0.2.0",
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
