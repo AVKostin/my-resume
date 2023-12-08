@@ -2,9 +2,10 @@
   "name": "my-resume",
   "version": "1.1.0",
   "description": "",
+  "main": "src/*.js",
   "homepage": "https://avkostin.github.io/my-resume/",
   "scripts": {
-    "start": "parcel src/*.html",
+    "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /my-resume/"
   },
   "repository": {
@@ -17,12 +18,7 @@
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
-  "dependencies": {
-    "modern-normalize": "^1.1.0"
-  },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.10.3",
-    "parcel": "1",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
